@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            form page
+        </title>
+    </head>
+    <body>
+        <form action="action.php" method="post" >
+            <label for="username">username:</label>
+            <input type="text"  id="username" minlength="8" maxlength="12"  >
+           
+            <label for="password">password</label>
+            <input type="password"  id="password" >
+            
+            <label for="phone">phone: </label>
+            <input type="tel"  id="phone" pattern="[0-9]{10}">
+            <br><br>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </body>
+</html>
